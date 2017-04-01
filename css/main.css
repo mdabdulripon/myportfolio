@@ -124,8 +124,13 @@ header {
 	width: 100%;
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header03.jpg');
+	background: url('../img/header.jpg');
 	background-size: cover;
+}
+
+
+.my-rounded-image {
+	margin: 0 auto;
 }
 
 header .table {
