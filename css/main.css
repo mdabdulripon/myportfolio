@@ -474,11 +474,11 @@ section {
 */
 
 footer {
-	background-color: #EFEFEF;
+	background-color: #2a3237;
 }
 
 footer .bottom-footer {
-	margin: 50px 0px;
+	margin: 70px 0px 50px 0px;
 }
 
 footer .social-footer {
