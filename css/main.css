@@ -258,6 +258,9 @@ section {
 	background: #EFEFEF;
 }
 
+#skills .title {
+	margin-bottom: 50px;
+}
 
 .skills {
 	width: 100%;
@@ -299,16 +302,24 @@ section {
 /**
 * PROJECTS
 **/
+#projects {
+	background-color: #ffffff;
+	margin-bottom: 50px;
+}
+
+#projects .title {
+	margin-bottom: 80px;
+}
+
 .projects {
-	margin: 80px 0;
-	padding-bottom: 60px;
-	background: white;
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.07);
+	border: 1px solid #DFDFDF;
+	box-shadow: 1px 1px 1px #999999;
+	margin-bottom: 30px;
 }
 
 .projects .cover .overlay {
-	height: 250px;
-	padding-top: 60px;
+	height: 350px;
+	padding-top: 150px;
 	opacity: 0;
 	background: rgba(0, 168, 255, 0.9);
 	-webkit-transition: opacity 0.45s ease;
@@ -318,29 +329,6 @@ section {
 .projects:hover .cover .overlay {
 	opacity: 1;
 }
-
-.projects .avatar {
-	position: relative;
-	z-index: 2;
-	margin-top: -60px;
-	border-radius: 50%;
-}
-
-.projects .title {
-	margin: 50px 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
