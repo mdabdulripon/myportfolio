@@ -200,16 +200,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	background: #31b9ff;
 }
 
-.btn.btn-blue-fill {
-	color: #00a8ff;
-	border-color: #00a8ff;
-	background: transparent;
-}
 
-.btn.btn-blue-fill:hover {
-	color: white;
-	background: #00a8ff;
-}
 
 .btn.btn-white-fill {
 	color: #fff;
@@ -276,7 +267,9 @@ section {
 
 
 
-
+/**
+* REFERENCES
+**/
 
 .team {
 	margin: 80px 0;
@@ -285,7 +278,35 @@ section {
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.07);
 }
 
-.team .cover .overlay {
+.team .title {
+	margin: 50px 0;
+}
+
+.btn.btn-blue-fill {
+	color: #00a8ff;
+	border-color: #00a8ff;
+	background: transparent;
+}
+
+.btn.btn-blue-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+
+
+
+/**
+* PROJECTS
+**/
+.projects {
+	margin: 80px 0;
+	padding-bottom: 60px;
+	background: white;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.07);
+}
+
+.projects .cover .overlay {
 	height: 250px;
 	padding-top: 60px;
 	opacity: 0;
@@ -294,20 +315,35 @@ section {
 	transition: opacity 0.45s ease;
 }
 
-.team:hover .cover .overlay {
+.projects:hover .cover .overlay {
 	opacity: 1;
 }
 
-.team .avatar {
+.projects .avatar {
 	position: relative;
 	z-index: 2;
 	margin-top: -60px;
 	border-radius: 50%;
 }
 
-.team .title {
+.projects .title {
 	margin: 50px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -510,7 +546,3 @@ ul.white-list li:before {
 	margin-right: 15px;
 	background: white;
 }
-
-
-
-
