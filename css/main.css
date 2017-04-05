@@ -77,13 +77,6 @@ h6 {
 	left: calc(50% - 32px);
 }
 
-.preloader div {
-	display: none;
-	background: url(../img/pricing2.jpg) no-repeat 9999px 9999px;
-	background-position: 9999px 9999px;
-}
-
-
 
 /**
 * HEADER STYLING
@@ -92,8 +85,8 @@ header {
 	position: relative;
 	width: 100%;
 	color: white;
-	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg');
+	background-color: #20283F;
+	/*background: url('../img/header.jpg');*/
 	background-size: cover;
 }
 
@@ -192,39 +185,9 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: white;
 }
 
-.btn.btn-blue {
-	background: #00a8ff;
-}
-
-.btn.btn-blue:hover {
-	background: #31b9ff;
-}
-
-
-
-.btn.btn-white-fill {
-	color: #fff;
-	border-color: #fff;
-	background: transparent;
-}
-
-.btn.btn-white-fill:hover {
-	color: #00a8ff;
-	background: #fff;
-}
-
-.btn.btn-gray-fill {
-	color: #fff;
-	border-color: #fff;
-	background: transparent;
-}
-
-.btn.btn-gray-fill:hover {
-	border-color: #bbb;
-	background: #bbb;
-}
-
-/* Blink Cursor */
+ /**
+ * BLINK CURSOR
+ **/
 
 .blink {
 	position: relative;
