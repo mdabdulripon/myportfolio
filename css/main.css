@@ -85,8 +85,7 @@ header {
 	position: relative;
 	width: 100%;
 	color: white;
-	background-color: #20283F;
-	/*background: url('../img/header.jpg');*/
+	background-color: #2a3237;
 	background-size: cover;
 }
 
@@ -294,10 +293,6 @@ section {
 }
 
 
-
-
-
-
 /**
 * FOOTER
 */
@@ -328,10 +323,6 @@ footer .social-footer li a {
 footer .social-footer li:hover a {
 	color: #00a8ff;
 }
-
-
-
-
 
 
 /**
