@@ -173,15 +173,7 @@ jQuery(function($) {
 
 
 
-
-
-
-
-
-
-
-
-
+// HOVER EFFECT
 $( document ).ready(function() {
     $("[rel='tooltip']").tooltip();    
  
