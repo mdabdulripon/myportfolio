@@ -58,7 +58,9 @@ h6 {
 	font-size: 16px;
 }
 
-/* Buttons */
+/** 
+* BUTTONS 
+*/
 
 .btn {
 	font-size: 18px;
@@ -77,6 +79,56 @@ h6 {
 	color: white;
 }
 
+/** 
+* COLOR && BACKGROUND 
+*/
+.light {
+	font-weight: 300;
+	color: white;
+}
+
+.regular {
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.light-white {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.white-bg {
+	background: white;
+}
+
+.gray-bg {
+	background: #f7f7f7;
+}
+
+.blue {
+	color: #00a8ff;
+}
+
+.blue-bg {
+	background: #00a8ff;
+}
+
+.muted {
+	color: #989da0;
+}
+
+/** 
+* MARGIN
+*/
+.margin-top {
+	margin-top: 150px;
+}
+
+.row.title {
+	padding: 0 20px;
+}
 
 /**
 * PAGE LODER 
@@ -344,50 +396,6 @@ footer .social-footer li:hover a {
 	background: #00a8ff;
 }
 
-.row.title {
-	padding: 0 20px;
-}
-
-.light {
-	font-weight: 300;
-	color: white;
-}
-
-.regular {
-	font-weight: 400;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.light-white {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-.white-bg {
-	background: white;
-}
-
-.gray-bg {
-	background: #f7f7f7;
-}
-
-.blue {
-	color: #00a8ff;
-}
-
-.blue-bg {
-	background: #00a8ff;
-}
-
-.muted {
-	color: #989da0;
-}
-
-.margin-top {
-	margin-top: 150px;
-}
 
 @media(max-width:992px) {
 	h1 {
