@@ -110,23 +110,6 @@ header .header-text {
 	color: white;
 }
 
-header .typed {
-	display: inline-block;
-	margin: 0;
-}
-
-header .typed-cursor {
-	font-size: 60px;
-	display: inline-block;
-	margin: 0 10px;
-	color: #00a8ff;
-	-webkit-animation-name: flash;
-	animation-name: flash;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-iteration-count: infinite;
-	animation-iteration-count: infinite;
-}
 
 a {
 	text-decoration: none;
@@ -459,15 +442,6 @@ footer .social-footer li:hover a {
 @media(max-width:991px) {
 	.text-center-mobile {
 		text-align: center !important;
-	}
-}
-
-@media(max-width: 400px) {
-	header .typed-cursor {
-		display: none;
-	}
-	.pricings .pricing .box-second {
-		padding-top: 0;
 	}
 }
 
